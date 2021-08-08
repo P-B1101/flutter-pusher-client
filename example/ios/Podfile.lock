@@ -1,6 +1,6 @@
 PODS:
   - Flutter (1.0.0)
-  - flutter_pusher_client (1.0.3):
+  - flutter_pusher_client (1.0.4):
     - Flutter
     - PusherSwift (~> 9.0)
   - NWWebSocket (0.5.2)
@@ -27,11 +27,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
-  flutter_pusher_client: 884a93a60d970dae16406b777b7efd40bf10af9b
+  flutter_pusher_client: a50097a250323bdedb1a101c0aa0e143308134d2
   NWWebSocket: 21f0c73639815da3272862c912275b26102aa80c
   PusherSwift: 8b252244aca6a662572be48a97b756d14cd7542c
   TweetNacl: 3abf4d1d2082b0114e7a67410e300892448951e6
 
-PODFILE CHECKSUM: cc1f88378b4bfcf93a6ce00d2c587857c6008d3b
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
 
 COCOAPODS: 1.10.2
