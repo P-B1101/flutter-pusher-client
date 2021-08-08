@@ -1,13 +1,13 @@
 PODS:
   - Flutter (1.0.0)
-  - flutter_pusher_client (1.0.1):
+  - flutter_pusher_client (1.0.3):
     - Flutter
-    - PusherSwift (~> 8.0)
-  - PusherSwift (8.0.0):
-    - ReachabilitySwift (~> 5.0)
-    - Starscream (~> 3.1)
-  - ReachabilitySwift (5.0.0)
-  - Starscream (3.1.1)
+    - PusherSwift (~> 9.0)
+  - NWWebSocket (0.5.2)
+  - PusherSwift (9.2.2):
+    - NWWebSocket (~> 0.5.2)
+    - TweetNacl (~> 1.0.0)
+  - TweetNacl (1.0.2)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -15,9 +15,9 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - NWWebSocket
     - PusherSwift
-    - ReachabilitySwift
-    - Starscream
+    - TweetNacl
 
 EXTERNAL SOURCES:
   Flutter:
@@ -27,11 +27,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
-  flutter_pusher_client: 0966480ad9dbc8b605f366f682ddb5814f40279f
-  PusherSwift: 8f18b7beaf383e0475607ab6a3f89f477637fb21
-  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
-  Starscream: 4bb2f9942274833f7b4d296a55504dcfc7edb7b0
+  flutter_pusher_client: 884a93a60d970dae16406b777b7efd40bf10af9b
+  NWWebSocket: 21f0c73639815da3272862c912275b26102aa80c
+  PusherSwift: 8b252244aca6a662572be48a97b756d14cd7542c
+  TweetNacl: 3abf4d1d2082b0114e7a67410e300892448951e6
 
-PODFILE CHECKSUM: a75497545d4391e2d394c3668e20cfb1c2bbd4aa
+PODFILE CHECKSUM: cc1f88378b4bfcf93a6ce00d2c587857c6008d3b
 
 COCOAPODS: 1.10.2
